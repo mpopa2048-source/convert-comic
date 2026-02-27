@@ -91,6 +91,15 @@ export const renameZipHandler = renameHandler("renamezip", [
     to: false,
     internal: "apk"
   },
+  {
+    name: "CBZ",
+    format: "cbz",
+    extension: "cbz",
+    mime: "archive/x-cbz",
+    from: true,
+    to: false,
+    internal: "cbz"
+  },
   CommonFormats.ZIP.builder("sb3").allowFrom()
     .withFormat("sb3").withExt("sb3").named("Scratch 3 Project"),
   CommonFormats.ZIP.builder("ipa").allowFrom()
