@@ -92,7 +92,7 @@ export const renameZipHandler = renameHandler("renamezip", [
     internal: "apk"
   },
   {
-    name: "CBZ",
+    name: "CBZ Archive",
     format: "cbz",
     extension: "cbz",
     mime: "archive/x-cbz",
